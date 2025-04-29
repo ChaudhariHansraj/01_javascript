@@ -86,8 +86,36 @@
 // let text3 = text.replace(/Microsoft/g,"ITHans") // => to replace all occurences use /g flag like this
 // console.log(text3);
 
-text = "cats, dogs, horses, Cats"
-text = text.replaceAll("Cats","Dogs");
-text = text.replaceAll("cats","dogs");
-console.log(text);
+// text = "cats, dogs, horses, Cats"
+// text = text.replaceAll("Cats","Dogs");
+// text = text.replaceAll("cats","dogs");
+// console.log(text);
 
+
+// let text = "Hello World"
+// let newText = text.split("") // split string in a single characters 
+// console.log(newText);
+
+
+// let text = "Hello world";
+// let result = text.endsWith("world"); // checks is the string ends with "world" or not
+// console.log(result);
+
+// let text = "Hello world, welcome to the universe.";
+// console.log(text.startsWith("Hello")); // The startsWith() method returns true if a string starts with a specified string.
+//                                           Otherwise it returns false.
+
+// let text = "Hitesh Chodhari"
+// console.log(text.__proto__);
+
+
+// string concatenation 
+// this syntax is old now we use modern syntax
+let text1 = "Hello"
+let text2 = "World"
+let text3 =  text1 + " " + text2
+console.log(text3);
+
+// we use this syntax, this syntax is used mostly and preffered it to use
+let text4 = `${text1} ${text2} `
+console.log(text4);
